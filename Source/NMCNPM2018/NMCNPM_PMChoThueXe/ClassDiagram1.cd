@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="NMCNPM_PMChoThueXe.FormDangNhap">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AEAAAAgQACAAQBgEQCCBBAACAAQACQAAAwAAAAAAQAA=</HashCode>
+      <FileName>FormDangNhap.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NMCNPM_PMChoThueXe.FormQuanLy">
+    <Position X="4" Y="0.5" Width="2.25" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>cQXCDAADhSAAAFwKBCCBBggCIWQELZAgxwAABUJAAAo=</HashCode>
+      <FileName>FormQuanLy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

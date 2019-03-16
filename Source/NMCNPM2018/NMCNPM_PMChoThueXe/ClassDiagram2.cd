@@ -1,0 +1,414 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="NMCNPM_PMChoThueXe.FormAddCar">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <Members>
+      <Field Name="btnThemXeMoi" Hidden="true" />
+      <Field Name="btnXoaCacTruongThemXeMoi" Hidden="true" />
+      <Field Name="cbFuel" Hidden="true" />
+      <Field Name="cbGearBox" Hidden="true" />
+      <Field Name="command" Hidden="true" />
+      <Field Name="components" Hidden="true" />
+      <Field Name="connection" Hidden="true" />
+      <Field Name="connectionString" Hidden="true" />
+      <Method Name="controlFields" Hidden="true" />
+      <Method Name="Dispose" Hidden="true" />
+      <Field Name="errThemXe" Hidden="true" />
+      <Method Name="FormAddCar" Hidden="true" />
+      <Method Name="FormAddCar_Load" Hidden="true" />
+      <Field Name="gbThemXeMoi" Hidden="true" />
+      <Method Name="InitializeComponent" Hidden="true" />
+      <Field Name="label1" Hidden="true" />
+      <Field Name="label2" Hidden="true" />
+      <Field Name="label3" Hidden="true" />
+      <Field Name="label4" Hidden="true" />
+      <Field Name="label5" Hidden="true" />
+      <Field Name="label6" Hidden="true" />
+      <Field Name="label7" Hidden="true" />
+      <Field Name="label8" Hidden="true" />
+      <Method Name="txtBrand_KeyPress" Hidden="true" />
+      <Method Name="txtModel_KeyPress" Hidden="true" />
+      <Method Name="txtPlate_KeyPress" Hidden="true" />
+      <Method Name="txtPrice_KeyPress" Hidden="true" />
+      <Method Name="txtProductYear_KeyPress" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAIAgEAACAAABkAEiCBIAgCAAwAAABAAIAAAiDQIAA=</HashCode>
+      <FileName>FormAddCar.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NMCNPM_PMChoThueXe.FormAddCustomer">
+    <Position X="0.5" Y="8.75" Width="3.25" />
+    <Members>
+      <Field Name="btnAddCustomer" Hidden="true" />
+      <Field Name="btnXoaCacTruongAddCustomer" Hidden="true" />
+      <Method Name="checkNullOrEmpty" Hidden="true" />
+      <Field Name="command" Hidden="true" />
+      <Field Name="components" Hidden="true" />
+      <Field Name="connection" Hidden="true" />
+      <Field Name="connectionString" Hidden="true" />
+      <Method Name="Dispose" Hidden="true" />
+      <Method Name="FormAddCustomer" Hidden="true" />
+      <Method Name="FormAddCustomer_Load" Hidden="true" />
+      <Field Name="groupBox1" Hidden="true" />
+      <Method Name="InitializeComponent" Hidden="true" />
+      <Field Name="label2" Hidden="true" />
+      <Field Name="label3" Hidden="true" />
+      <Field Name="label4" Hidden="true" />
+      <Field Name="label5" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAgAAgAKgQABiAAASBQAACAAVAAAAAACAAAAAAAAA=</HashCode>
+      <FileName>FormAddCustomer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NMCNPM_PMChoThueXe.FormAddUser">
+    <Position X="3.5" Y="5.75" Width="1.5" />
+    <Members>
+      <Field Name="btnThemTaiKhoan" Hidden="true" />
+      <Method Name="checkTextBox" Hidden="true" />
+      <Field Name="chkAnMatKhau" Hidden="true" />
+      <Method Name="chkAnMatKhau_CheckedChanged" Hidden="true" />
+      <Field Name="command" Hidden="true" />
+      <Field Name="components" Hidden="true" />
+      <Field Name="connection" Hidden="true" />
+      <Field Name="connectionString" Hidden="true" />
+      <Field Name="dataReader" Hidden="true" />
+      <Method Name="Dispose" Hidden="true" />
+      <Method Name="FormAddUser" Hidden="true" />
+      <Method Name="FormAddUser_Load" Hidden="true" />
+      <Field Name="groupBox1" Hidden="true" />
+      <Field Name="groupBox2" Hidden="true" />
+      <Method Name="InitializeComponent" Hidden="true" />
+      <Field Name="label1" Hidden="true" />
+      <Field Name="label2" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AIgAAAAIACwAABgAAACBAAACAAQAAgAAADAAABAGEgA=</HashCode>
+      <FileName>FormAddUser.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NMCNPM_PMChoThueXe.FormDangNhap">
+    <Position X="8.5" Y="5.25" Width="1.5" />
+    <Members>
+      <Field Name="btnDangNhap" Hidden="true" />
+      <Field Name="btnTaoTaiKhoan" Hidden="true" />
+      <Field Name="chkHienMatkhau" Hidden="true" />
+      <Method Name="chkHienMatkhau_CheckedChanged" Hidden="true" />
+      <Field Name="command" Hidden="true" />
+      <Field Name="components" Hidden="true" />
+      <Field Name="connection" Hidden="true" />
+      <Field Name="connectionString" Hidden="true" />
+      <Method Name="Dispose" Hidden="true" />
+      <Method Name="FormDangNhap" Hidden="true" />
+      <Method Name="frmDangNhap_Load" Hidden="true" />
+      <Method Name="InitializeComponent" Hidden="true" />
+      <Field Name="label1" Hidden="true" />
+      <Field Name="label2" Hidden="true" />
+      <Field Name="label3" Hidden="true" />
+      <Field Name="pbUserLogin" Hidden="true" />
+      <Method Name="txtMatKhau_KeyDown" Hidden="true" />
+      <Method Name="txtTenTaiKhoan_KeyDown" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AEAAAAgQACAAQBgEQCCBBAACAAQACQAAAwAAAAAAQAA=</HashCode>
+      <FileName>FormDangNhap.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NMCNPM_PMChoThueXe.FormDatXe">
+    <Position X="2.5" Y="0.5" Width="2.5" />
+    <Members>
+      <Field Name="btnDatNgay" Hidden="true" />
+      <Field Name="btnXoaTrong" Hidden="true" />
+      <Field Name="CarID" Hidden="true" />
+      <Field Name="components" Hidden="true" />
+      <Field Name="connection" Hidden="true" />
+      <Field Name="connectionString" Hidden="true" />
+      <Field Name="CustID" Hidden="true" />
+      <Field Name="dataAdapter" Hidden="true" />
+      <Field Name="dataReader" Hidden="true" />
+      <Field Name="dgvDatXe" Hidden="true" />
+      <Method Name="Dispose" Hidden="true" />
+      <Method Name="fillTheDataGrid" Hidden="true" />
+      <Method Name="FormDatXe" Hidden="true" />
+      <Method Name="FormDatXe_Load" Hidden="true" />
+      <Field Name="groupBox1" Hidden="true" />
+      <Method Name="InitializeComponent" Hidden="true" />
+      <Field Name="label1" Hidden="true" />
+      <Field Name="label10" Hidden="true" />
+      <Field Name="label11" Hidden="true" />
+      <Field Name="label12" Hidden="true" />
+      <Field Name="label13" Hidden="true" />
+      <Field Name="label14" Hidden="true" />
+      <Field Name="label2" Hidden="true" />
+      <Field Name="label3" Hidden="true" />
+      <Field Name="label4" Hidden="true" />
+      <Field Name="label5" Hidden="true" />
+      <Field Name="label6" Hidden="true" />
+      <Field Name="label7" Hidden="true" />
+      <Field Name="label8" Hidden="true" />
+      <Field Name="label9" Hidden="true" />
+      <Method Name="makeAconnection" Hidden="true" />
+      <Field Name="selectedCar" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>8YADgcAAACBAABmAAACBSEECABhAAACCAKACIiAUAAA=</HashCode>
+      <FileName>FormDatXe.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NMCNPM_PMChoThueXe.FormDeleteCar">
+    <Position X="8.5" Y="3.25" Width="1.75" />
+    <Members>
+      <Field Name="command" Hidden="true" />
+      <Field Name="components" Hidden="true" />
+      <Field Name="connection" Hidden="true" />
+      <Field Name="connectionString" Hidden="true" />
+      <Field Name="dgvXoaXe" Hidden="true" />
+      <Method Name="dgvXoaXe_CellClick" Hidden="true" />
+      <Method Name="Dispose" Hidden="true" />
+      <Method Name="fillTheDataGrid" Hidden="true" />
+      <Method Name="FormDeleteCar_Load" Hidden="true" />
+      <Method Name="InitializeComponent" Hidden="true" />
+      <Method Name="makeAconnection" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAACAAARkAAAGBAAACAAQAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FormDeleteCar.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NMCNPM_PMChoThueXe.FormDeleteUser">
+    <Position X="8.5" Y="0.5" Width="2.5" />
+    <Members>
+      <Field Name="command" Hidden="true" />
+      <Field Name="components" Hidden="true" />
+      <Field Name="connection" Hidden="true" />
+      <Field Name="connectionString" Hidden="true" />
+      <Field Name="dgvDeleteUser" Hidden="true" />
+      <Field Name="groupBox1" Hidden="true" />
+      <Field Name="label1" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AIAABAAAACAAABkAAACBAAACAAQAAAAAgCAAAAAAAAA=</HashCode>
+      <FileName>FormDeleteUser.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NMCNPM_PMChoThueXe.FormHienThiDatXe">
+    <Position X="4.75" Y="11.25" Width="1.75" />
+    <Members>
+      <Field Name="chkBrand" Hidden="true" />
+      <Method Name="chkBrand_CheckedChanged" Hidden="true" />
+      <Field Name="chkCMND" Hidden="true" />
+      <Method Name="chkCMND_CheckedChanged" Hidden="true" />
+      <Field Name="chkModel" Hidden="true" />
+      <Method Name="chkModel_CheckedChanged" Hidden="true" />
+      <Field Name="chkName" Hidden="true" />
+      <Method Name="chkName_CheckedChanged" Hidden="true" />
+      <Field Name="components" Hidden="true" />
+      <Field Name="connection" Hidden="true" />
+      <Field Name="connectionString" Hidden="true" />
+      <Field Name="dataAdapter" Hidden="true" />
+      <Field Name="dgvHienThiThongTinDatXe" Hidden="true" />
+      <Method Name="Dispose" Hidden="true" />
+      <Method Name="fillTheDataGrid" Hidden="true" />
+      <Method Name="FormHienThiDatXe" Hidden="true" />
+      <Method Name="FormHienThiDatXe_Load" Hidden="true" />
+      <Field Name="groupBox1" Hidden="true" />
+      <Field Name="groupBox2" Hidden="true" />
+      <Method Name="InitializeComponent" Hidden="true" />
+      <Method Name="makeAconnection" Hidden="true" />
+      <Method Name="searchDataGrid" Hidden="true" />
+      <Method Name="setEnableTextbox" Hidden="true" />
+      <Method Name="setQuery" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AIAAgIAACqABAAkAAAKRAAQWIAAAoAAIACAIAQQAAAA=</HashCode>
+      <FileName>FormHienThiDatXe.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NMCNPM_PMChoThueXe.FormHuyDatXe">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <Members>
+      <Field Name="command" Hidden="true" />
+      <Field Name="components" Hidden="true" />
+      <Field Name="connection" Hidden="true" />
+      <Field Name="connectionString" Hidden="true" />
+      <Field Name="dataAdapter" Hidden="true" />
+      <Field Name="deletedRent" Hidden="true" />
+      <Field Name="dgvXoaDatXe" Hidden="true" />
+      <Method Name="Dispose" Hidden="true" />
+      <Method Name="fillTheDataGrid" Hidden="true" />
+      <Method Name="FormHuyDatXe_Load" Hidden="true" />
+      <Field Name="groupBox1" Hidden="true" />
+      <Method Name="InitializeComponent" Hidden="true" />
+      <Field Name="label1" Hidden="true" />
+      <Method Name="makeAconnection" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AoAAAIAAACAAABkAAACBAABCIAUAAAAAACABAAAAAAA=</HashCode>
+      <FileName>FormHuyDatXe.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NMCNPM_PMChoThueXe.FormQuanLy">
+    <Position X="5.5" Y="0.5" Width="2.5" />
+    <Members>
+      <Field Name="components" Hidden="true" />
+      <Field Name="connection" Hidden="true" />
+      <Field Name="connectionString" Hidden="true" />
+      <Field Name="dataReader" Hidden="true" />
+      <Method Name="Dispose" Hidden="true" />
+      <Method Name="FormQuanLy" Hidden="true" />
+      <Method Name="frmQuanLy_FormClosed" Hidden="true" />
+      <Method Name="frmQuanLy_FormClosing" Hidden="true" />
+      <Method Name="frmQuanLy_Load" Hidden="true" />
+      <Method Name="InitializeComponent" Hidden="true" />
+      <Field Name="Itype" Hidden="true" />
+      <Field Name="label1" Hidden="true" />
+      <Field Name="lbDate" Hidden="true" />
+      <Field Name="lbSetings" Hidden="true" />
+      <Field Name="lbTime" Hidden="true" />
+      <Field Name="lbXinChao" Hidden="true" />
+      <Field Name="ltLogout" Hidden="true" />
+      <Field Name="name" Hidden="true" />
+      <Field Name="panel1" Hidden="true" />
+      <Field Name="pbUserLQ" Hidden="true" />
+      <Field Name="pictureBox1" Hidden="true" />
+      <Field Name="quảnLýKháchHàngToolStripMenuItem" Hidden="true" />
+      <Method Name="setUserLabel" Hidden="true" />
+      <Field Name="timer1" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>cQXCDAADhSAAAFwKBCCBBgkCIWQELZAgxwAABUJAAAo=</HashCode>
+      <FileName>FormQuanLy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NMCNPM_PMChoThueXe.FormTaoTaiKhoan">
+    <Position X="1.75" Y="11.75" Width="1.5" />
+    <Members>
+      <Field Name="btnTaoTaiKhoan" Hidden="true" />
+      <Field Name="checkBox1" Hidden="true" />
+      <Method Name="checkTextbox" Hidden="true" />
+      <Field Name="command" Hidden="true" />
+      <Field Name="components" Hidden="true" />
+      <Field Name="connection" Hidden="true" />
+      <Field Name="connectionString" Hidden="true" />
+      <Field Name="dataReader" Hidden="true" />
+      <Method Name="Dispose" Hidden="true" />
+      <Method Name="FormTaoTaiKhoan" Hidden="true" />
+      <Method Name="FormTaoTaiKhoan_Load" Hidden="true" />
+      <Field Name="groupBox1" Hidden="true" />
+      <Method Name="InitializeComponent" Hidden="true" />
+      <Field Name="label1" Hidden="true" />
+      <Field Name="label2" Hidden="true" />
+      <Field Name="label3" Hidden="true" />
+      <Field Name="label4" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAACAAACAAABkAQACBgAACAAQAAAAAASIAAAEAQAA=</HashCode>
+      <FileName>FormTaoTaiKhoan.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NMCNPM_PMChoThueXe.FormUpdateCar">
+    <Position X="8.25" Y="10.5" Width="2" />
+    <Members>
+      <Field Name="command" Hidden="true" />
+      <Field Name="components" Hidden="true" />
+      <Field Name="connection" Hidden="true" />
+      <Field Name="connectionString" Hidden="true" />
+      <Field Name="dgvCapNhatLaiXe" Hidden="true" />
+      <Method Name="dgvCapNhatLaiXe_CellClick" Hidden="true" />
+      <Method Name="Dispose" Hidden="true" />
+      <Method Name="fillTheDataGrid" Hidden="true" />
+      <Method Name="FormUpdateCar_Load" Hidden="true" />
+      <Field Name="gbThemXeMoi" Hidden="true" />
+      <Method Name="InitializeComponent" Hidden="true" />
+      <Field Name="label1" Hidden="true" />
+      <Field Name="label2" Hidden="true" />
+      <Field Name="label3" Hidden="true" />
+      <Field Name="label4" Hidden="true" />
+      <Field Name="label5" Hidden="true" />
+      <Field Name="label6" Hidden="true" />
+      <Field Name="label7" Hidden="true" />
+      <Field Name="label8" Hidden="true" />
+      <Method Name="makeAconnection" Hidden="true" />
+      <Method Name="resetAll" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAQCAAEBmAAACBoAyCAAwAAAAAAIAAAgBQQAA=</HashCode>
+      <FileName>FormUpdateCar.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NMCNPM_PMChoThueXe.FormUpdateCustomer">
+    <Position X="0.5" Y="5.75" Width="2.5" />
+    <Members>
+      <Method Name="checkNullOrEmpty" Hidden="true" />
+      <Field Name="command" Hidden="true" />
+      <Field Name="components" Hidden="true" />
+      <Field Name="connection" Hidden="true" />
+      <Field Name="connectionString" Hidden="true" />
+      <Field Name="dgvUpdateCustomers" Hidden="true" />
+      <Method Name="dgvUpdateCustomers_CellClick" Hidden="true" />
+      <Method Name="Dispose" Hidden="true" />
+      <Method Name="fillTheDataGrid" Hidden="true" />
+      <Method Name="FormUpdateCustomer" Hidden="true" />
+      <Method Name="FormUpdateCustomer_Load" Hidden="true" />
+      <Field Name="groupBox1" Hidden="true" />
+      <Method Name="InitializeComponent" Hidden="true" />
+      <Field Name="label2" Hidden="true" />
+      <Field Name="label3" Hidden="true" />
+      <Field Name="label4" Hidden="true" />
+      <Field Name="label5" Hidden="true" />
+      <Method Name="makeAconnection" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AIAAgAAgACAAABkAAACFQAACCAVAAAAACCAAACAAEAA=</HashCode>
+      <FileName>FormUpdateCustomer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NMCNPM_PMChoThueXe.FormUpdateUser">
+    <Position X="8.5" Y="8" Width="2.25" />
+    <Members>
+      <Field Name="btnXacNhan" Hidden="true" />
+      <Field Name="btnXoaTruong" Hidden="true" />
+      <Method Name="btnXoaTruong_Click" Hidden="true" />
+      <Method Name="checkFields" Hidden="true" />
+      <Field Name="chkAnMatKhau" Hidden="true" />
+      <Method Name="chkAnMatKhau_CheckedChanged" Hidden="true" />
+      <Field Name="command" Hidden="true" />
+      <Field Name="components" Hidden="true" />
+      <Field Name="connection" Hidden="true" />
+      <Field Name="connectionString" Hidden="true" />
+      <Method Name="Dispose" Hidden="true" />
+      <Method Name="FormUpdateUser" Hidden="true" />
+      <Method Name="FormUpdateUser_Load" Hidden="true" />
+      <Field Name="groupBox1" Hidden="true" />
+      <Method Name="InitializeComponent" Hidden="true" />
+      <Field Name="label1" Hidden="true" />
+      <Field Name="label2" Hidden="true" />
+      <Field Name="label3" Hidden="true" />
+      <Field Name="label4" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAGEAABhAEACBAAACAAQAAIAAADAIABEAFAA=</HashCode>
+      <FileName>FormUpdateUser.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NMCNPM_PMChoThueXe.FormXemDanhSachXe">
+    <Position X="4" Y="9.25" Width="3.25" />
+    <Members>
+      <Field Name="components" Hidden="true" />
+      <Field Name="connection" Hidden="true" />
+      <Field Name="connectionString" Hidden="true" />
+      <Method Name="Dispose" Hidden="true" />
+      <Method Name="FormXemDanhSachXe" Hidden="true" />
+      <Method Name="FormXemDanhSachXe_Load" Hidden="true" />
+      <Field Name="groupBox1" Hidden="true" />
+      <Method Name="InitializeComponent" Hidden="true" />
+      <Method Name="makeAconnection" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAACAAAAkAAACBAAACAAAAAAAAACACAAAAIAA=</HashCode>
+      <FileName>FormXemDanhSachXe.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
